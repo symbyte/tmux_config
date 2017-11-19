@@ -1,0 +1,22 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "shell_command": [
+            "vim"
+          ] 
+        }, 
+        {
+          "shell_command": [ "yarn watch" ]
+        }, 
+        {
+          "shell_command": [ "tmux rename-session ${PWD##*/} && clear" ]
+        }
+      ], 
+      "layout": "2446,204x58,0,0[204x45,0,0,1,204x12,0,46{101x12,0,46,2,102x12,102,46,3}]", 
+      "window_name": "editor"
+    }
+  ], 
+  "session_name": "dev"
+}
