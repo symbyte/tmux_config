@@ -1,0 +1,25 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": [
+            "vim"
+          ] 
+        }, 
+        {
+          "pane_name": "build",
+          "shell_command": [ "elm-app start" ]
+        }, 
+        {
+          "pane_name": "terminal",
+          "shell_command": [ "tmux rename-session ${PWD##*/} && clear" ]
+        }
+      ], 
+      "layout": "2446,204x58,0,0[204x45,0,0,1,204x12,0,46{101x12,0,46,2,102x12,102,46,3}]", 
+      "window_name": "$PWD"
+    }
+  ], 
+  "session_name": "elm"
+}
