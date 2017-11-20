@@ -1,0 +1,101 @@
+{
+  "windows": [
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": ["vim"]
+        },
+        {
+          "pane_name": "watch",
+          "shell_command": ["npm run start & npm run watch"]
+        },
+        {
+          "shell_command": []
+        }
+      ],
+      "layout":
+        "d3af,364x94,0,0[364x78,0,0,1,364x15,0,79{181x15,0,79,2,182x15,182,79,3}]",
+      "window_name": "atla-main",
+      "start_directory": "projects/atla/atla-main"
+    },
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": ["vim"]
+        },
+        {
+          "pane_name": "watch",
+          "shell_command": ["npm run watch"]
+        },
+        {
+          "shell_command": []
+        }
+      ],
+      "layout":
+        "d3af,364x94,0,0[364x78,0,0,1,364x15,0,79{181x15,0,79,2,182x15,182,79,3}]",
+      "window_name": "stream-grid",
+      "start_directory": "projects/stream-grid"
+    },
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": ["vim"]
+        },
+        {
+          "pane_name": "watch",
+          "shell_command": ["npm run watch"]
+        },
+        {
+          "shell_command": []
+        }
+      ],
+      "layout":
+        "d3af,364x94,0,0[364x78,0,0,1,364x15,0,79{181x15,0,79,2,182x15,182,79,3}]",
+      "window_name": "data-dictionary",
+      "start_directory": "projects/atla/atla-data-dictionary"
+    },
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": ["vim"]
+        },
+        {
+          "pane_name": "watch",
+          "shell_command": ["npm run watch"]
+        },
+        {
+          "shell_command": []
+        }
+      ],
+      "layout":
+        "d3af,364x94,0,0[364x78,0,0,1,364x15,0,79{181x15,0,79,2,182x15,182,79,3}]",
+      "window_name": "mapstrap",
+      "start_directory": "projects/raven/mapstrap"
+    },
+    {
+      "panes": [
+        {
+          "pane_name": "editor",
+          "shell_command": ["vim"]
+        },
+        {
+          "pane_name": "watch",
+          "shell_command": ["npm run watch"]
+        },
+        {
+          "shell_command": []
+        }
+      ],
+      "layout":
+        "d3af,364x94,0,0[364x78,0,0,1,364x15,0,79{181x15,0,79,2,182x15,182,79,3}]",
+      "window_name": "column-manager",
+      "start_directory": "projects/column-manager"
+    }
+  ],
+  "start_directory": "~",
+  "session_name": "atla"
+}
