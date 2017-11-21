@@ -17,9 +17,10 @@
           "shell_command": [ "tmux rename-session ${PWD##*/} && clear" ]
         }
       ], 
-      "layout": "2446,204x58,0,0[204x45,0,0,1,204x12,0,46{101x12,0,46,2,102x12,102,46,3}]", 
+      "layout": "16aa,318x82,0,0[318x68,0,0,30,318x13,0,69{159x13,0,69,31,158x13,160,69,32}]", 
       "window_name": "$PWD"
     }
   ], 
   "session_name": "elm"
 }
+
